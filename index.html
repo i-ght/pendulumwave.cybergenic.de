@@ -17,8 +17,9 @@
 
         const SCREEN_WIDTH = canvas.height; // Swap width and height
         const SCREEN_HEIGHT = canvas.width; // Swap width and height
-        const PENDULUM_LENGTHS = [100, 110, 120, 130,/*  140, 150, 160, 170, 180 */];
-        const PENDULUM_COLORS = ["red", "purple", "yellow", "black"];
+        const PENDULUM_LENGTHS = [100, 110, 120, 130, 140, 150, 160, /* 170, 180 */];
+        const PENDULUM_COLORS = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+        PENDULUM_COLORS.reverse();
         const AMPLITUDE = 45; // Maximum angle (in degrees) from the vertical position
         const PHASE_OFFSET = Math.PI / 2; // Phase offset to start pendulums facing southward
 
